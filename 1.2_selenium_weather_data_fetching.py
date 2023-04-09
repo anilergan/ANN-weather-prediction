@@ -29,7 +29,7 @@ def get_table():
     df_list = pd.read_html(html_table)
     df = df_list[0] # ilk tabloyu seçiyoruz
     df = df.dropna()
-    return df
+    return df'''
 
 base_url = "https://www.wunderground.com/history/daily/tr/istanbul/LTBA/date/"
 
